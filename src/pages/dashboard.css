@@ -1,0 +1,56 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#f4f6f9;
+}
+
+.appbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#1e293b;
+  color:white;
+  padding:15px 30px;
+}
+
+.appbar button{
+  background:#ef4444;
+  border:none;
+  padding:8px 15px;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.container{
+  padding:30px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+  margin-top:30px;
+}
+
+.card{
+  background:white;
+  padding:25px;
+  border-radius:10px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 6px 15px rgba(0,0,0,0.2);
+}
+
+.card h3{
+  margin:0;
+}
+
+.card p{
+  color:#555;
+}

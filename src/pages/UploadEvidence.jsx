@@ -1,13 +1,19 @@
 import EvidenceUploader from "../components/EvidenceUploader"
 import { useParams } from "react-router-dom"
 
-function UploadEvidence(){
+function UploadEvidence() {
 
-  const {id} = useParams()
+  const { id } = useParams()
 
-  return(
+  return (
 
-    <EvidenceUploader caseId={id}/>
+    <div style={{padding:"30px"}}>
+
+      <h2>Upload Evidence</h2>
+
+      <EvidenceUploader caseId={id} />
+
+    </div>
 
   )
 

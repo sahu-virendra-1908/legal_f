@@ -45,3 +45,10 @@ function AppRoutes(){
 }
 
 export default AppRoutes
+// import { Navigate } from "react-router-dom"
+
+// const isAuth = () => {
+
+//   return localStorage.getItem("token")
+
+// }
